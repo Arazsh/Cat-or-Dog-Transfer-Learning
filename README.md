@@ -15,7 +15,7 @@ For completing the model, 4 more layers are added to the convolutional layers fr
 
 The dataset originally belongs to Kaggle. Here, a part of the dataset is used for training and validation. The link to the partial dataset is provide by Laurence Moroney (lmoroney@gmail.com / laurencemoroney.com). Afer downloading, the immage directories and the paths are defined. Also, two random images from the train dataset are displayed.
 
-![alt text](https://github.com/Arazsh/Horse-vs.-Human-Classification/blob/media/image1.png?raw=true)
+![alt text](https://github.com/Arazsh/Cat-or-Dog-Transfer-Learning/blob/media/image1.png?raw=true)
 
 The number of train and test images can be seen at the top of the figure.
 
