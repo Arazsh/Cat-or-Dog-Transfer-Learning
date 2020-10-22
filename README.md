@@ -13,6 +13,9 @@ For completing the model, 4 more layers are added to the convolutional layers fr
 
 ## Downloading the dataset
 
+The dataset originally belongs to Kaggle. Here, a part of the dataset is used for training and validation. The link to the partial dataset is provide by Laurence Moroney (lmoroney@gmail.com / laurencemoroney.com). Afer downloading, the immage directories and the paths are defined. Also, two random images from the train dataset are displayed.
+
+
 
 
 
