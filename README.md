@@ -1,6 +1,6 @@
 # Cat or Dog-Transfer Learning with InceptionV3
 
-In this code, a two-class model is developed to classify cat vs. dog images. For building the model, the convolutional block of InceptionV3 neural network and transfer learning with ImageNet weights is utilized. The dogs vs. cats dataset that is used for training and testing the model is provided by Kaggle at https://www.kaggle.com/c/dogs-vs-cats/data. In this code, a part of the original dataset which contains 3000 images (2000 fo training and 1000 for validation) is used. The fitted model indicates the strong accuracy of about 97% for both training and validation sets. Also, for 30 random images of dogs and cats outside the dataset, the fitted model demonstrated the perfect prediction of 100%.
+In this code, a two-class model is developed to classify cat vs. dog images. For building the model, the convolutional block of InceptionV3 neural network and transfer learning with ImageNet weights is utilized. The dogs vs. cats dataset that is used for training and testing the model is provided by Kaggle at https://www.kaggle.com/c/dogs-vs-cats/data. In this code, a part of the original dataset which contains 3000 images (2000 fo training and 1000 for validation) is used. The fitted model indicates the strong accuracy of about 97% for both training and validation sets. Also, for 30 random images of dogs and cats outside of the dataset, the fitted model demonstrated correct predictions for all cases.
 
 
 ## Loading InceptionV3
@@ -21,7 +21,11 @@ The number of train and test images can be seen at the top of the figure.
 
 ## Preparing the train and test sets with ImageDataGenerator
 
-In the Next step, ImageDataGenerator with flow_from_directory is utilized to generate the train and validation data for the model. To improve the accuracy of the model and to reduce the overfitting issue, image augmentation was used for training set.
+In the Next step, ImageDataGenerator with flow_from_directory is utilized to generate the train and validation data for the model. To improve the accuracy of the model and to reduce the overfitting issue, image augmentation was used for the training set.  
+After defining the train and test sets, the model is fitted for 20 epochs. The model reaches to about 97% of accuracy for both training and validation sets within 20 epochs.
+
+## from google.colab import files
+To test the model for images out of the dataset, a section in the notebook is provided to upload images and predict if they belong to Cat or Dog classes. I tested the model for 15 cat and 15 dog random natural images and the prediction was correct in all cases. However, it should be noted that the images had low complications for the model. In other words, the images were straightforward cat or dog images.
 
 
 
