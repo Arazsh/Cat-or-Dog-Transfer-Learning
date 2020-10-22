@@ -15,6 +15,17 @@ For completing the model, 4 more layers are added to the convolutional layers fr
 
 The dataset originally belongs to Kaggle. Here, a part of the dataset is used for training and validation. The link to the partial dataset is provide by Laurence Moroney (lmoroney@gmail.com / laurencemoroney.com). Afer downloading, the immage directories and the paths are defined. Also, two random images from the train dataset are displayed.
 
+![alt text](https://github.com/Arazsh/Horse-vs.-Human-Classification/blob/media/image1.png?raw=true)
+
+The number of train and test images can be seen at the top of the figure.
+
+## Preparing the train and test sets with ImageDataGenerator
+
+In the Next step, ImageDataGenerator with flow_from_directory is utilized to generate the train and validation data for the model. To improve the accuracy of the model and to reduce the overfitting issue, image augmentation was used for training set.
+
+
+
+
 
 
 
